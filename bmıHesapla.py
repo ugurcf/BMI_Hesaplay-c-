@@ -45,7 +45,7 @@ def bmi_hesapla():
 
         sonuc_label.config(text=sonuc_text)
     except ValueError:
-        sonuc_label.config(text="Lütfen geçerli bir sayı giriniz.")
+        sonuc_label.config(text="Lütfen geçerli bir sayı giriniz. Sayınız "0" olamaz.")
 
 # Ana pencere
 window = tk.Tk()
